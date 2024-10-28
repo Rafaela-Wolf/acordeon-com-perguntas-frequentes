@@ -1,0 +1,43 @@
+@media (max-width: 740px) {
+    .acordeon {
+        flex-wrap: wrap;
+    }
+
+    .acordeon .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .acordeon .conteudo {
+        width: 70%;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .acordeon img {
+        width: 200px;
+        padding: 15px;
+    }
+
+    .acordeon .conteudo h1 {
+        font-size: 26px;
+     }
+
+     .acordeon .itens .item .pergunta {
+        font-size: 13px;
+    }
+
+    .acordeon .itens .item.ativo h2 {
+        font-size: 15px;
+    }
+
+    .resposta {
+        font-size: 13px;
+    }
+}
